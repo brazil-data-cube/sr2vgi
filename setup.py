@@ -6,7 +6,7 @@ with open("README.rst", "r") as fh:
 setuptools.setup(
     name="sr2vgi",
     version="0.0.1",
-    author="Anderson Soares, Michel Eutáquio e José Fronza",
+    author="Anderson Soares, Michel Chaves e José Fronza",
     author_email="andersonreis.geo@gmail.com",
     description="A package to vegetation indexes.",
     long_description=long_description,
