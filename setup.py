@@ -5,13 +5,13 @@ with open("README.rst", "r") as fh:
 
 setuptools.setup(
     name="sr2vgi",
-    version="0.0.1",
-    author="Anderson Soares, Michel Chaves e José Fronza",
-    author_email="andersonreis.geo@gmail.com",
+    version="0.0.2",
+    author="Brazil Data Cube Team",
+    author_email="brazildatacube@dpi.inpe.br",
     description="A package to vegetation indexes.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/andersonreisoares/sr2vgi/",
+    url="https://github.com/brazil-data-cube/sr2vgi/",
     packages=['sr2vgi'],
     install_requires=[
     'numpy',

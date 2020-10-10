@@ -1,3 +1,5 @@
-if __name__ == "__main__":
+from .vgi import *
 
+
+if __name__ == "__main__":
     main()
