@@ -1358,7 +1358,7 @@ def ndre1m(b1, b5, b6):
     """
     Normalized Difference Red-edge 1 modified (Sims and Gamon, 2002).
 
-    .. math:: NDRE1M = (b6 - b5)vi700 / (b6 + b5 - 2 * b1)
+    .. math:: NDRE1M = (b6 - b5) / (b6 + b5 - 2 * b1)
 
     :param b1: Coastal.
     :type b1: numpy.ndarray or float
